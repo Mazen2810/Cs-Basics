@@ -9,6 +9,17 @@ internal class Program
         //Console.WriteLine(Num);
         #endregion
 
-        
+
+        #region Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+
+        int X = 5;
+        int Y = 10;
+        Y = X;  // X = 5 , Y = 5 
+        X++;    // X = 6
+        Console.WriteLine(X);
+        Console.WriteLine(Y);
+        #endregion
+
+
     }
 }
